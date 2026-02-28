@@ -48,7 +48,7 @@ public class Incrementdecrement {
 
 		System.out.println("-------------------------");
 		System.out.println(w);
-		*/
+		
 		
 		
 		
@@ -76,10 +76,47 @@ public class Incrementdecrement {
 
 		System.out.println(i+j);      //190
 		System.out.println(i);        //92
-
+		*/
 		
 		
-		   
+		
+	
+		int i = 45;  
+		--i;                            //44
+		i++;                            //45
+		
+		int j = i+6;                   //51
+		System.out.println(i);         //45
+		
+		j--;                           //50
+		System.out.println(j);         //50
+		System.out.println(i++);      //45
+		
+		int k = j+i+3;               //99
+		System.out.println(k); 
+		
+		k--;                         //98
+		
+		--k;                          //97
+		System.out.println(k);        //97
+		
+		
+		System.out.println(--j);      //49
+		System.out.println(11+k);     //108
+		i--;                          //45
+		++k;                          //98
+		System.out.println(k++);      //98
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 			
 		
