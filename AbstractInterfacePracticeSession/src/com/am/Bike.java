@@ -1,0 +1,17 @@
+package com.am;
+
+public class Bike implements Vehicle {
+
+	@Override
+	public void start() {
+		System.out.println("Bike is Started");
+		
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("Bike stooped--!");
+		
+	}
+
+}
