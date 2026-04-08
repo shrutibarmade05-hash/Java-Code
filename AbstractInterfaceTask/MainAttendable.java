@@ -1,0 +1,16 @@
+package com.AbstractInterfaceTask;
+
+public class MainAttendable {
+public static void main(String args[]) {
+	//Student s = new Student("Alice", 101);
+   // Teacher t = new Teacher("Mr. John", "Mathematics");
+Student s = new Student();
+    s.getDetails();
+    s.markAttendance();
+
+    Teacher t = new Teacher();
+    t.getDetails();
+    t.markAttendance();
+	
+}
+}
